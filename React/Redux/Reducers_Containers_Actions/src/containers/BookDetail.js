@@ -24,8 +24,4 @@ function mapStateToProps(state) {
   };
 }
 
-// function mapDispatchToProps(dispatch) {
-//   return bindActionToCreators({ activeBook: activeBook }, dispatch);
-// }
-
 export default connect(mapStateToProps)(BookDetail);
